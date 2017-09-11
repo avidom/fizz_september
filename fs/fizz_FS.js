@@ -914,52 +914,52 @@ p.nominalBounds = new cjs.Rectangle(-173.6,-223.7,403.3,388.8);
 
 
 (lib.t2 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
+if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 
 	// slogan
 	this.slogan = new lib.Symbol7();
-	this.slogan.setTransform(-1,-161);
+	this.slogan.setTransform(-1,-161,0.8,0.8);
 
 	this.timeline.addTween(cjs.Tween.get(this.slogan).wait(1));
 
 	// t3
 	this.t3 = new lib.Symbol8copy2();
-	this.t3.setTransform(-51.9,84.3,1.1,1.1);
+	this.t3.setTransform(-51.9,74.3,1.1,1.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.t3).wait(1));
 
 	// t2
 	this.t2 = new lib.Symbol8copy();
-	this.t2.setTransform(-45.9,83.3,1.1,1.1);
+	this.t2.setTransform(-45.9,73.3,1.1,1.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.t2).wait(1));
 
 	// t1
 	this.t1 = new lib.Symbol8();
-	this.t1.setTransform(-45.9,-46.7,1.1,1.1);
+	this.t1.setTransform(-45.9,-56.7,1.1,1.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.t1).wait(1));
 
 	// apple2
 	this.apple2 = new lib.Symbol14();
-	this.apple2.setTransform(-40,-44);
+	this.apple2.setTransform(-40,-54);
 
 	this.timeline.addTween(cjs.Tween.get(this.apple2).wait(1));
 
 	// barrel
 	this.barrel = new lib.Symbol15();
-	this.barrel.setTransform(-48,-33);
+	this.barrel.setTransform(-48,-43);
 
 	this.timeline.addTween(cjs.Tween.get(this.barrel).wait(1));
 
 	// apple
 	this.apple = new lib.Symbol14();
-	this.apple.setTransform(-44,81);
+	this.apple.setTransform(-44,71);
 
 	this.timeline.addTween(cjs.Tween.get(this.apple).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-136.5,-190,269.5,346.1);
+p.nominalBounds = new cjs.Rectangle(-136.5,-184.2,242.7,330.3);
 
 
 (lib.content = function(mode,startPosition,loop) {
@@ -1023,7 +1023,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 		  //.to(r.t2.slogan, 1.7, {y:"-=50", ease:Expo.easeInOut}, time5+0.00)
 		  .staggerTo([r.t2.t3.t2, r.t2.t3.t1, r.t2.apple2], 0.7, {y:"+=80", alpha:0, ease:Expo.easeIn}, 0.15, time5+0.00)
 		  .staggerTo([r.t2.t3.l1, r.t2.t3.l2, r.t2.t3.l3, r.t2.t3.l4, r.t2.t3.l5, r.t2.t3.l6], 0.7, {scaleX:0.0, scaleY:0.0, ease:Back.easeIn}, 0.1, time5+0.00)
-		  .to(r.bot1, 1.0, {x:6, y:22, scaleX:1.0, scaleY:1.0, ease:Expo.easeInOut}, time5+0.50)
+		  .to(r.bot1, 1.0, {x:6, y:22, scaleX:0.9, scaleY:0.9, ease:Expo.easeInOut}, time5+0.50)
 		  .from(r.br2.br1, 1.0, {x:"-=100", y:"+=100", ease:Expo.easeOut}, time5+0.70)
 		  .from(r.br2.br2, 1.0, {x:"-=100", y:"+=100", ease:Expo.easeOut}, time5+0.70)
 		  .from(r.br2.br3, 1.0, {x:"+=100", y:"+=100", ease:Expo.easeOut}, time5+0.70)
@@ -1104,7 +1104,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 
 	// bot1
 	this.bot1 = new lib.bottle();
-	this.bot1.setTransform(92,28,0.72,0.72);
+	this.bot1.setTransform(92,15,0.72,0.72);
 
 	this.timeline.addTween(cjs.Tween.get(this.bot1).wait(1));
 
