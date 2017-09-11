@@ -880,18 +880,18 @@ p.nominalBounds = new cjs.Rectangle(-73.7,-54.2,147.5,108.5);
 	this.br3.setTransform(210.8,-118.1,0.63,0.63,0,-13.4,166.6,-128.3,43.8);
 
 	this.br2 = new lib.Symbol5();
-	this.br2.setTransform(-194.1,148.9,0.6,0.6,6.9,0,0,-128.3,43.8);
+	this.br2.setTransform(-194.1,118.9,0.6,0.6,6.9,0,0,-128.3,43.8);
 
 	this.br4 = new lib.Symbol6();
-	this.br4.setTransform(178.2,69.4,1,1,0,0,180,-61.9,-17.6);
+	this.br4.setTransform(178.2,39.4,1,1,0,0,180,-61.9,-17.6);
 
 	this.br1 = new lib.Symbol5();
-	this.br1.setTransform(-216.1,-132.2,0.869,0.869,43.4,0,0,-128.3,43.7);
+	this.br1.setTransform(-216.1,-152.2,0.869,0.869,43.4,0,0,-128.3,43.7);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.br1},{t:this.br4},{t:this.br2},{t:this.br3}]}).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-201.9,-174.6,394.5,345.8);
+p.nominalBounds = new cjs.Rectangle(-201.9,-194.6,394.5,335.8);
 
 
 (lib.branches = function(mode,startPosition,loop) {
@@ -899,18 +899,18 @@ p.nominalBounds = new cjs.Rectangle(-201.9,-174.6,394.5,345.8);
 
 	// Layer 1
 	this.br3 = new lib.Symbol5();
-	this.br3.setTransform(244.9,92.9,0.999,0.999,0,-24.5,155.5,-128.4,43.8);
+	this.br3.setTransform(254.9,62.9,0.999,0.999,0,-24.5,155.5,-128.4,43.8);
 
 	this.br2 = new lib.Symbol6();
-	this.br2.setTransform(-177.9,109.4,1,1,0,0,0,-61.9,-17.6);
+	this.br2.setTransform(-177.9,69.4,1,1,0,0,0,-61.9,-17.6);
 
 	this.br1 = new lib.Symbol5();
-	this.br1.setTransform(-205.9,-145.9,1,1,0,0,0,-128.3,43.8);
+	this.br1.setTransform(-205.9,-125.9,1,1,0,0,0,-128.3,43.8);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.br1},{t:this.br2},{t:this.br3}]}).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-173.6,-243.7,393.3,438.8);
+p.nominalBounds = new cjs.Rectangle(-173.6,-223.7,403.3,388.8);
 
 
 (lib.t2 = function(mode,startPosition,loop) {
@@ -918,7 +918,7 @@ p.nominalBounds = new cjs.Rectangle(-173.6,-243.7,393.3,438.8);
 
 	// slogan
 	this.slogan = new lib.Symbol7();
-	this.slogan.setTransform(-1,-148);
+	this.slogan.setTransform(-1,-161);
 
 	this.timeline.addTween(cjs.Tween.get(this.slogan).wait(1));
 
@@ -959,7 +959,7 @@ p.nominalBounds = new cjs.Rectangle(-173.6,-243.7,393.3,438.8);
 	this.timeline.addTween(cjs.Tween.get(this.apple).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-136.5,-177,269.5,333.1);
+p.nominalBounds = new cjs.Rectangle(-136.5,-190,269.5,346.1);
 
 
 (lib.content = function(mode,startPosition,loop) {
@@ -1020,7 +1020,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 		  
 		  
 		  //5
-		  .to(r.t2.slogan, 1.7, {y:"-=50", ease:Expo.easeInOut}, time5+0.00)
+		  //.to(r.t2.slogan, 1.7, {y:"-=50", ease:Expo.easeInOut}, time5+0.00)
 		  .staggerTo([r.t2.t3.t2, r.t2.t3.t1, r.t2.apple2], 0.7, {y:"+=80", alpha:0, ease:Expo.easeIn}, 0.15, time5+0.00)
 		  .staggerTo([r.t2.t3.l1, r.t2.t3.l2, r.t2.t3.l3, r.t2.t3.l4, r.t2.t3.l5, r.t2.t3.l6], 0.7, {scaleX:0.0, scaleY:0.0, ease:Back.easeIn}, 0.1, time5+0.00)
 		  .to(r.bot1, 1.0, {x:6, y:22, scaleX:1.0, scaleY:1.0, ease:Expo.easeInOut}, time5+0.50)
@@ -1077,7 +1077,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 
 	// warn
 	this.warn = new lib.Symbol18();
-	this.warn.setTransform(0,220,1.23,1.39);
+	this.warn.setTransform(0,175,1.23,1.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.warn).wait(1));
 
@@ -1114,7 +1114,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.timeline.addTween(cjs.Tween.get(this.bg).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-201.9,-251,421.6,503);
+p.nominalBounds = new cjs.Rectangle(-201.9,-251,431.6,502);
 
 
 // stage content:
