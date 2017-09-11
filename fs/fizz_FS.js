@@ -877,7 +877,7 @@ p.nominalBounds = new cjs.Rectangle(-73.7,-54.2,147.5,108.5);
 
 	// Layer 1
 	this.br3 = new lib.Symbol5();
-	this.br3.setTransform(210.8,-118.1,0.63,0.63,0,-13.4,166.6,-128.3,43.8);
+	this.br3.setTransform(210.8,-103.1,0.63,0.63,0,-13.4,166.6,-128.3,43.8);
 
 	this.br2 = new lib.Symbol5();
 	this.br2.setTransform(-194.1,118.9,0.6,0.6,6.9,0,0,-128.3,43.8);
@@ -886,12 +886,12 @@ p.nominalBounds = new cjs.Rectangle(-73.7,-54.2,147.5,108.5);
 	this.br4.setTransform(178.2,39.4,1,1,0,0,180,-61.9,-17.6);
 
 	this.br1 = new lib.Symbol5();
-	this.br1.setTransform(-216.1,-152.2,0.869,0.869,43.4,0,0,-128.3,43.7);
+	this.br1.setTransform(-216.1,-137.2,0.869,0.869,43.4,0,0,-128.3,43.7);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.br1},{t:this.br4},{t:this.br2},{t:this.br3}]}).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-201.9,-194.6,394.5,335.8);
+p.nominalBounds = new cjs.Rectangle(-201.9,-179.6,394.5,320.8);
 
 
 (lib.branches = function(mode,startPosition,loop) {
